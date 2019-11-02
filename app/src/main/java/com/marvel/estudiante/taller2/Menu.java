@@ -15,6 +15,8 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        final FloatingActionButton fab4 = (FloatingActionButton) findViewById(R.id.fab4);
+
 
         com.getbase.floatingactionbutton.FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab1);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -25,6 +27,18 @@ public class Menu extends AppCompatActivity {
                 Intent intent = new Intent(Menu.this,Mapa.class);
                 startActivity(intent);
             }
+        });
+
+
+        fab4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                /*Snackbar.make(view, "Abriendo calendario", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                Intent intent = new Intent(Menu.this, Calendario.class);
+                startActivity(intent); }
+
+
         });
     }
 
