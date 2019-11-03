@@ -21,7 +21,7 @@ public class Video extends AppCompatActivity {
         videoView.setVideoURI(uri);
         videoView.requestFocus();
         videoView.start();
-        
+
     }
 
 }
