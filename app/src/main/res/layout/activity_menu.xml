@@ -57,7 +57,9 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="?attr/colorAccent"
             app:fab_icon="@android:drawable/ic_media_play"
-            app:fab_size="normal" />
+            app:fab_size="normal"
+            app:fab_title="YouTube"
+            />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab4"
