@@ -45,8 +45,9 @@
             android:id="@+id/fab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:fab_colorNormal="?attr/colorAccent"
-            app:fab_icon="@android:drawable/ic_menu_help"
+            app:fab_colorNormal="#2196F3"
+
+            app:fab_icon="@android:drawable/gallery_thumb"
             app:fab_size="normal"
             app:fab_title="estadisticas" />
 
