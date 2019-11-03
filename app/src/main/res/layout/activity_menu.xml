@@ -37,12 +37,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="?attr/colorAccent"
+            app:fab_icon="@android:drawable/ic_media_play"
+            app:fab_size="normal"
+            app:fab_title="Youtube" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FFEB3B"
+            app:fab_icon="@android:drawable/ic_menu_my_calendar"
+            app:fab_size="normal"
+            app:fab_title="calendario" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="?attr/colorAccent"
             app:fab_icon="@android:drawable/ic_dialog_map"
             app:fab_size="normal"
             app:fab_title="mapa" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab2"
+            android:id="@+id/fab4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#2196F3"
@@ -51,24 +69,6 @@
             app:fab_size="normal"
             app:fab_title="estadisticas" />
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:fab_colorNormal="?attr/colorAccent"
-            app:fab_icon="@android:drawable/ic_media_play"
-            app:fab_size="normal"
-            app:fab_title="YouTube"
-            />
-
-        <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:fab_colorNormal="#FFEB3B"
-            app:fab_icon="@android:drawable/ic_menu_my_calendar"
-            app:fab_size="normal"
-            app:fab_title="calendario" />
 
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
